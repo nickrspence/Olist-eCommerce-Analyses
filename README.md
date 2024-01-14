@@ -32,6 +32,22 @@ I will split up the analyses into four sections and analyses:
 
 <H3> Data Set </H3>
 
--   8-table relational database schema -- see above in the main files section
+-   8-table relational database schema -- see EER diagram in files section
 
 -   Two links to data sources on Kaggle
+
+<H4> Extract, Transform, Load (ETL) </H4>
+
+    - The Kaggle project provided CSV files for each of the 8 data sets. I performed the steps below to prepare the data for analyses.
+    1) Download each CSV file into an Excel worksheet
+    2) Clean, prepare, and format the data before importing into MySQL
+            - Reduced each key id value column to only 10 characters for the purpose of manageability and data size
+            - Removed unnecessary duplicate rows
+            - Removed rows with missing data that was necessary
+            - Added "0"s to the beginning of values where it was automatically removed upon upload (i.e. zipcodes, key IDs)
+            - Replaced all empty cells with "\N" in order to import via LOAD INFILE function.
+            - Formatted all dates and times according to MySQL format (i.e. ' yyy-mm-dd hh:mm:ss ')
+            - Translated product categories into english for easier viewing
+    3) Created 8 tables in MySQL with identical columns as cleaned CSV files (see Olist_ETL file)
+    4) Ran 8 LOAD INFILE queries to load the data into each SQL table (see Olist_ETL file)
+    5) Validated that all the data was imported without error and fully
