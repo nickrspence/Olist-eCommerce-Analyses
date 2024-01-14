@@ -136,18 +136,11 @@ IGNORE 1 LINES;
 CREATE TABLE closed_deals (
 	mql_id CHAR(10),
 	seller_id CHAR(10),
-	sdr_id CHAR(10),
-	sr_id CHAR(10),
 	won_date DATETIME,
 	business_segment VARCHAR(50),
 	lead_type VARCHAR(50),
 	lead_behavior_profile VARCHAR(25),
-	has_company VARCHAR(10),
-	has_gtin VARCHAR(10),
-	average_stock VARCHAR(50),
-	business_type VARCHAR(50),
-	declared_product_catalog_size INT,
-	declared_monthly_revenue INT
+	business_type VARCHAR(50)
 );
     
 
