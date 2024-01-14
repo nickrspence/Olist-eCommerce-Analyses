@@ -7,7 +7,7 @@ Those merchants are able to sell their products through the Olist Store and ship
 - This dataset was sourced from Kaggle, and it has been anonymized and sampled from the original dataset.
 - This dataset provides information of 100k orders from 2017-2018 including price, payment, freight performance, customer location, product attributes, and vendors.
 
-<H4> Brief </H4>
+<H4> The Project </H4>
 
 - I will act as a data analyst that seeks to assit the Olist Company to derive useful insights from their data and to provide recommendations.
 
