@@ -1,4 +1,4 @@
-<H2>Olist eCommerce Company performance</H2>
+<H2>Olist eCommerce data analysis / Power BI dashboards</H2>
 
 <H3> Brief </H3>
 
