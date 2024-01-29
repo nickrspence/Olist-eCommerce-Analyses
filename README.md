@@ -51,3 +51,10 @@ I will split up the analyses into four sections and analyses:
     3) Created 8 tables in MySQL with identical columns as cleaned CSV files (see Olist_ETL file)
     4) Ran 8 LOAD INFILE queries to load the data into each SQL table (see Olist_ETL file)
     5) Validated that all the data was imported without error and fully
+
+
+<H3> Power BI Visualizations </H3>
+
+- Two Power BI dashboards are attached in PDF form in the projet files section. Unfortunately I am unable to share the interactive versions with no Power BI Pro license account.
+1. Sales Dashboard
+2. Website Activity Dashboard
