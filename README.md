@@ -32,7 +32,7 @@ I will split up the analyses into four sections and analyses:
 
 <H3> Data Set </H3>
 
--   8-table relational database schema -- see EER diagram in files section
+-  Created 8-table relational database with key mapping, EER diagram, constraints -- see EER diagram in files section
 
 -  Full source data included as ZIP file in project repository. Additionally, links are provided to Kaggle project pages.
 
