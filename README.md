@@ -56,5 +56,6 @@ I will split up the analyses into four sections and analyses:
 <H3> Power BI Visualizations </H3>
 
 - Two Power BI dashboards are attached in PDF form in the projet files section. Unfortunately I am unable to share the interactive versions with no Power BI Pro license account.
+- Used Power Query ETL, key mapping, dynamic dashboard, KPIs, slicers, DAX
 1. Sales Dashboard
 2. Website Activity Dashboard
