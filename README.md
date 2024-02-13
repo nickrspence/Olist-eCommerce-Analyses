@@ -41,8 +41,8 @@ I will split up the analyses into four sections and analyses:
 - The Kaggle project provided CSV files for each of the 8 data sets. I performed the steps below to prepare the data for analyses.
 1) Download each CSV file into an Excel worksheet
 2) Clean, prepare, and format the data before importing into MySQL
-   *Reduced each key id value column to only 10 characters for the purpose of manageability and data size
-        - Removed unnecessary duplicate rows
+- Reduced each key id value column to only 10 characters for the purpose of manageability and data size
+- Removed unnecessary duplicate rows
         - Removed rows with missing data that was unnecessary
         - Added "0"s to the beginning of values where it was automatically removed upon upload (i.e. zipcodes, key IDs)
         - Replaced all empty cells with "\N" in order to import via LOAD INFILE function.
